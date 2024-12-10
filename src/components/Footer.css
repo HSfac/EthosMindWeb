@@ -1,0 +1,81 @@
+.footer {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin: 20px;
+}
+
+.footer-logo-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-logo {
+  width: 50px; /* 로고 크기를 조정 */
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.footer-title {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.footer-title img {
+  width: 40px; /* 로고 크기 조정 */
+  height: 40px;
+  margin-right: 10px;
+}
+
+.footer-description {
+  font-size: 14px;
+}
+
+.footer-subtitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-social a {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  padding-top: 20px;
+  font-size: 14px;
+}

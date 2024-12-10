@@ -1,0 +1,72 @@
+:root {
+  --background-color: #ffffff;
+  --text-color: #333333;
+  --heading-color: #1a1a1a;
+  --link-color: #1a1a1a;
+  --link-hover-color: underline;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #121212;
+    --text-color: #cccccc;
+    --heading-color: #ffffff;
+    --link-color: #ffffff;
+    --link-hover-color: underline;
+  }
+}
+
+.privacy-main {
+  padding: 20px 40px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.privacy-ethosmind-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.privacy-ethosmind-section-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  background: linear-gradient(90deg, #ff8a00, #e52e71);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.privacy-ethosmind-last-updated {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
+
+.privacy-ethosmind-subtitle {
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: var(--heading-color);
+}
+
+.privacy-ethosmind-text, .privacy-ethosmind-list {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text-color);
+  margin-bottom: 15px;
+}
+
+.privacy-ethosmind-list {
+  padding-left: 20px;
+}
+
+.privacy-ethosmind-email {
+  font-size: 18px;
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.privacy-ethosmind-email:hover {
+  text-decoration: var(--link-hover-color);
+}

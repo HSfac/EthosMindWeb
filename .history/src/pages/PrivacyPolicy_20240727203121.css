@@ -1,0 +1,90 @@
+:root {
+  --background-color: #ffffff;
+  --text-color: #333333;
+  --heading-color: #1a1a1a;
+  --link-color: #1a1a1a;
+  --link-hover-color: underline;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #121212;
+    --text-color: #cccccc;
+    --heading-color: #ffffff;
+    --link-color: #ffffff;
+    --link-hover-color: underline;
+  }
+}
+
+.privacy-main {
+  padding: 20px 40px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.privacy-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), center/cover no-repeat;
+  color: #ffffff;
+  text-align: center;
+  padding: 60px 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.privacy-hero-title {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.privacy-hero-description {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.privacy-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.privacy-section-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  background: linear-gradient(90deg, #ff8a00, #e52e71);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.privacy-content h3 {
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: var(--heading-color);
+}
+
+.privacy-content p, .privacy-content ul {
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text-color);
+  margin-bottom: 15px;
+}
+
+.privacy-content ul {
+  padding-left: 20px;
+}
+
+.privacy-email {
+  font-size: 18px;
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.privacy-email:hover {
+  text-decoration: var(--link-hover-color);
+}

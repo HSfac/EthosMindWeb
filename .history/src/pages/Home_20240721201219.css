@@ -1,0 +1,75 @@
+:root {
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --button-background-color: #1a1a1a;
+  --button-text-color: #ffffff;
+  --card-background-color: #f8f8f8;
+  --card-shadow-color: rgba(0, 0, 0, 0.1);
+  --divider-color: rgba(0, 0, 0, 0.2);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #181818;
+    --text-color: #f8f8f8;
+    --button-background-color: #f8f8f8;
+    --button-text-color: #181818;
+    --card-background-color: #282828;
+    --card-shadow-color: rgba(255, 255, 255, 0.1);
+    --divider-color: rgba(255, 255, 255, 0.2);
+  }
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.home-main {
+  padding: 20px 40px;
+}
+
+.home-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.home-hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.home-hero-title {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.home-hero-description {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.home-hero-search {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.home-hero-search input {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.home-hero-search button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: var(--button-background-color);
+  col

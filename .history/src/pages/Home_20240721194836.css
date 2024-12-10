@@ -1,0 +1,141 @@
+.home-main {
+  padding: 20px 40px;
+}
+
+.home-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  border-radius: 10px;
+}
+
+.home-hero-title {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.home-hero-description {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.home-hero-button {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.home-app-introduction {
+  margin: 40px 0;
+}
+
+.home-app-title {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.home-app-features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.home-app-intro-card {
+  text-align: center;
+  max-width: 300px;
+  margin-bottom: 20px;
+}
+
+.home-app-screenshot {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.home-app-description {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.home-app-features {
+  font-size: 14px;
+}
+
+.home-detailed-app-section {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+
+.home-app-detail {
+  flex: 1;
+  text-align: center;
+  max-width: 300px;
+}
+
+.home-detail-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.home-detail-description {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.home-detail-screenshot {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.home-download-button {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.home-cta-section {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.home-cta-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.home-cta-description {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.home-cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.home-cta-button {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}

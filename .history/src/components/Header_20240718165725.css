@@ -1,0 +1,64 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ededed;
+}
+
+.header-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+.download-button a {
+  padding: 8px 16px;
+  border-radius: 20px;
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.toggle-button {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+:root {
+  --bg-color: white;
+  --text-color: #141414;
+}
+
+.dark-mode {
+  --bg-color: #141414;
+  --text-color: white;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}

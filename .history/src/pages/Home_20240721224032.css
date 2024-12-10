@@ -1,0 +1,249 @@
+.home-main {
+  padding: 20px 40px;
+}
+
+
+.home-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), center/cover no-repeat;
+  color: #ffffff;
+  text-align: center;
+  padding: 60px 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  background-size: cover; /* 이미지가 섹션을 완전히 덮도록 설정 */
+  background-position: center; /* 이미지가 중심에 위치하도록 설정 */
+  min-height: 70vh; /* 히어로 섹션의 최소 높이를 70vh로 설정 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.home-hero-title {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.home-hero-description {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.home-hero-search {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.home-hero-search input {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.home-hero-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.home-hero-button:hover {
+  background-color: #333333;
+  transform: scale(1.05);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.home-app-introduction {
+  margin: 40px 0;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.home-section-title {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  background: linear-gradient(90deg, #ff8a00, #e52e71);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  animation: fadeIn 2s ease-in-out;
+}
+
+.home-app-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.home-app-card {
+  display: flex;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.home-app-image-container {
+  flex: 1;
+  min-width: 50%;
+}
+
+.home-app-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.home-app-info {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: black;
+}
+
+.home-app-title {
+  font-size: 24px;
+  font-weight: bold;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 50px;
+  display: inline-block;
+  margin-bottom: 10px;
+  white-space: nowrap;
+}
+
+.home-app-description {
+  font-size: 16px;
+  margin: 10px 0;
+  color: black;
+}
+
+.home-app-features {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.home-app-features li {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.home-learn-more-button {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  align-self: flex-start;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.home-learn-more-button:hover {
+  background-color: #333333;
+  transform: scale(1.05);
+}
+
+.home-divider {
+  border: 0;
+  height: 1px;
+  margin: 20px 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.home-cta-section {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.home-cta-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  background: linear-gradient(90deg, #00f260, #0575e6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  animation: bounce 2s infinite;
+}
+.home-cta-description {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.home-cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.home-cta-button {
+  background-color: #1a1a1a;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+  transition: background-color 0.3s, transform 0.3s;
+  overflow: hidden;
+}
+
+.home-cta-button::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  background: rgba(255, 255, 255, 0.15);
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 0.5s, opacity 0.5s;
+  border-radius: 50%;
+}
+
+.home-cta-button:hover::after {
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+}
+
+@keyframes pop {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+.home-cta-button:hover {
+  background-color: #333333;
+  animation: pop 0.6s ease-in-out infinite;
+}

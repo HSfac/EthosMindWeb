@@ -1,0 +1,151 @@
+.biblechat-main {
+  padding: 20px 40px;
+}
+
+.biblechat-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  border-radius: 10px;
+}
+
+.biblechat-hero-title {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.biblechat-hero-subtitle {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.biblechat-hero-search {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.biblechat-hero-search input {
+  width: 300px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+}
+
+.biblechat-hero-search button {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.biblechat-featured-dialogues {
+  margin: 40px 0;
+}
+
+.biblechat-section-title {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.biblechat-dialogue-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.biblechat-dialogue-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  max-width: 600px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.biblechat-dialogue-image {
+  width: 150px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.biblechat-dialogue-info {
+  padding: 20px;
+  flex: 1;
+}
+
+.biblechat-dialogue-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.biblechat-dialogue-description {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.biblechat-dialogue-button {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.biblechat-daily-wisdom {
+  margin: 40px 0;
+}
+
+.biblechat-wisdom-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.biblechat-wisdom-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  max-width: 600px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.biblechat-wisdom-info {
+  padding: 20px;
+  flex: 1;
+}
+
+.biblechat-wisdom-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.biblechat-wisdom-description {
+  font-size: 14px;
+}
+
+.biblechat-wisdom-image {
+  width: 150px;
+  height: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,63 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.header-title {
+  display: flex;
+  align-items: center;
+}
+
+.header-title img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+.header-download-button {
+  background-color: var(--button-background-color);
+  color: var(--button-text-color);
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.toggle-button {
+  background: none;
+  border: none;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  --background-color: #333;
+  --text-color: #fff;
+  --button-background-color: #555; 
+  --button-text-color: #fff;
+}
+
+body:not(.dark-mode) {
+  --background-color: #fff;
+  --text-color: #000;
+  --button-background-color: #ddd;
+  --button-text-color: #000;
+}
